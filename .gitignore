@@ -1,0 +1,24 @@
+# 의존성
+node_modules/
+
+# Next.js 빌드 산출물
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# 환경변수 (API 키, OAuth 비밀값) — .env.example은 커밋됨
+.env
+.env*.local
+
+# SQLite DB (refresh token 평문 저장 → 절대 커밋 금지)
+data.db
+data.db-*
+*.db
+
+# 로그
+npm-debug.log*
+nohup.out
+
+# macOS
+.DS_Store
